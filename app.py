@@ -1,3 +1,5 @@
+%%writefile /content/ScamShield/app.py
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -491,7 +493,7 @@ div.stButton > button {
 # MODEL PATH
 # ============================================================
 
-MODEL_DIR = "."
+MODEL_DIR = "/content/ScamShield"
 
 
 # ============================================================
